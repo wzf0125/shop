@@ -47,7 +47,7 @@
 
 >   接口文档
 
-[接口文档Markdown格式](https://github.com/wzf0125/shop/master/接口文档.md)
+[接口文档Markdown格式](https://github.com/wzf0125/shop/blob/master/接口文档.md)
 
 本项目使用apifox作为接口管理工具，需要导入apifox可以导入根目录下的 `接口文档.apifox.json`文件
 
