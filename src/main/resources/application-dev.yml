@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1/shop?&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        max-wait: -1ms
+    password:
+    host: 127.0.0.1
+    database: 2
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# my config
+isDebug: true
+hostAddress: http://localhost:8080

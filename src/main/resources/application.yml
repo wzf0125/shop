@@ -1,0 +1,27 @@
+# server config
+server:
+  port: 8080
+
+# mybatis-plus config
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# mail config
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 465
+    protocol: smtps
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+          required: true
+
